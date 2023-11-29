@@ -15,6 +15,14 @@ variable "AWS_REGION" {
   type = string
 }
 
+variable "MONGODB_ATLAS_PUBLIC_KEY" {
+  type = string
+}
+
+variable "MONGODB_ATLAS_PRIVATE_KEY" {
+  type = string
+}
+
 variable "org_id" {
   type        = string
   description = "(Required) Unique 24-hexadecimal digit string that identifies the organization that contains your projects."
